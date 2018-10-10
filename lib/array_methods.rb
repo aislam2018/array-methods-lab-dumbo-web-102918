@@ -8,7 +8,8 @@ def using_sort(array)
 end
 
 def using_reverse(array)
-  array.reverse!
+  var new_arr = array.reverse
+  return new_arr
 end
 
 def using_first(array)
